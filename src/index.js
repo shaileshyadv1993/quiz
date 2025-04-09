@@ -48,6 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
     startBtn.classList.add("hidden");
     // Show question and next question
     score = 0;
+    totalScore.classList.add("hidden");
     nextQuestion();
   });
 

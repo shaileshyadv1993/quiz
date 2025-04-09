@@ -8,15 +8,22 @@
     <title>Quiz</title>
   </head>
   <body class="bg-slate-500 flex flex-col justify-center items-center h-screen">
-    <div id="container" class="bg-teal-400 rounded-md w-md sm:w-xs">
-      <h1 class="text-center font-bold text-black text-5xl mb-3 mt-3">Quiz</h1>
+    <div
+      id="container"
+      class="bg-teal-400 md:rounded-md md:w-md sm:bg-teal-400 sm:w-sm sm:rounded-sm"
+    >
+      <h1
+        class="text-center font-bold text-black text-5xl mb-3 mt-3 sm:text-xl"
+      >
+        Quiz
+      </h1>
       <div
         id="game-container"
         class="flex flex-col justify-center items-center mt-5 mb-5"
       >
         <h1
           id="total-score"
-          class="hidden font-bold text-2xl text-center mt-2 mb-3"
+          class="hidden font-bold text-2xl text-center mt-2 mb-3 sm:text-xl"
         ></h1>
         <button
           id="start-btn"
@@ -24,11 +31,14 @@
         >
           Start
         </button>
-        <h2 id="question-section" class="font-bold text-2xl hidden text-center">
+        <h2
+          id="question-section"
+          class="font-bold text-2xl hidden text-center sm:text-xl"
+        >
           <!-- Questions here -->
         </h2>
 
-        <ul id="options-display" class="mt-1 w-3/4 mb-3">
+        <ul id="options-display" class="mt-1 w-3/4 mb-3 sm:w-sm">
           <!-- Options will display dynamically -->
         </ul>
         <button
