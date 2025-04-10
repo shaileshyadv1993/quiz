@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", () => {
       optionDisplay.appendChild(li);
       li.setAttribute(
         "class",
-        "font-bold  rounded-md text-2xl w-full mb-1 py-2 px-5 mt-1 hover:bg-blue-500 text-center hover:cursor-pointer"
+        "font-bold  rounded-md text-sm sm:text-xl w-full mb-1 py-2 px-5 mt-1 hover:bg-blue-500 text-center hover:cursor-pointer"
       );
     }
   }

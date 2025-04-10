@@ -8,9 +8,12 @@
     <title>Quiz</title>
   </head>
   <body class="bg-slate-500 flex flex-col justify-center items-center h-screen">
-    <div id="container" class="bg-teal-400 md:rounded-md md:w-md">
+    <div
+      id="container"
+      class="bg-teal-400 rounded-md w-1/4 xs:md sm:w-sm md:w-md"
+    >
       <h1
-        class="text-center font-bold text-black text-5xl mb-3 mt-3 sm:text-xl"
+        class="text-center font-bold text-black sm:text-4xl text-md mb-3 mt-3"
       >
         Quiz
       </h1>
@@ -20,27 +23,27 @@
       >
         <h1
           id="total-score"
-          class="hidden font-bold text-2xl text-center mt-2 mb-3 sm:text-xl"
+          class="hidden font-bold text-xl text-center mt-2 mb-3"
         ></h1>
         <button
           id="start-btn"
-          class="bg-blue-600 text-xl font-bold rounded-full p-3 w-1/2 hover:bg-blue-700"
+          class="bg-blue-600 sm:text-xl text-sm font-bold rounded-full sm:p-3 p-1 sm:w-1/2 w-1/2 hover:bg-blue-700"
         >
           Start
         </button>
         <h2
           id="question-section"
-          class="font-bold text-2xl hidden text-center sm:text-xl"
+          class="font-bold text-md sm:text-2xl hidden text-center mx-2"
         >
           <!-- Questions here -->
         </h2>
 
-        <ul id="options-display" class="mt-1 w-3/4 mb-3 sm:w-sm">
+        <ul id="options-display" class="mt-1 w-3/4 mb-3">
           <!-- Options will display dynamically -->
         </ul>
         <button
           id="next-btn"
-          class="bg-blue-700 text-xl font-bold rounded-full p-3 w-1/2 hover:bg-blue-800 hidden"
+          class="bg-blue-700 text-sm sm:text-xl font-bold rounded-full p-3 w-1/2 hover:bg-blue-800 hidden"
         >
           Next
         </button>
